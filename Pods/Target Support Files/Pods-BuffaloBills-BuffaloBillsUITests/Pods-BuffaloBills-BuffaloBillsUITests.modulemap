@@ -1,0 +1,6 @@
+framework module Pods_BuffaloBills_BuffaloBillsUITests {
+  umbrella header "Pods-BuffaloBills-BuffaloBillsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
