@@ -83,7 +83,7 @@ class ChatGPTClient {
     
     func getChatResponse(prompt: String, completion: @escaping (Result<String, Error>) -> Void){
         
-        var semaphore = DispatchSemaphore (value: 0)
+        let semaphore = DispatchSemaphore (value: 0)
         
         let parameters = "{\n    \"model\": \"gpt-3.5-turbo\",\n    \"messages\": [\n      {\n        \"role\": \"system\",\n        \"content\": \"You are a helpful assistant.\"\n      },\n      {\n        \"role\": \"user\",\n        \"content\": \"\(prompt)\"\n      }\n    ]\n}"
         
@@ -91,7 +91,9 @@ class ChatGPTClient {
         
         var request = URLRequest(url: URL(string: "https://api.openai.com/v1/chat/completions")!,timeoutInterval: Double.infinity)
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.addValue("Bearer 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", forHTTPHeaderField: "Authorization")
+        request.addValue("Bearer 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", forHTTPHeaderField: "Authorization")
+        
+        //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
         
         request.httpMethod = "POST"
         request.httpBody = postData

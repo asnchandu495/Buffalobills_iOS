@@ -122,7 +122,12 @@ class ChatbotViewController: UIViewController {
                
             case .failure(let error):
                 print(error.localizedDescription)
-                self.arrayChatbot.removeLast()
+                DispatchQueue.main.async {
+                   
+                    self.arrayChatbot.removeLast()
+                    self.tableView.reloadData()
+                    self.scrollToLastRow()
+                }
 //                Toast.shared().removeExistedToast()
             }
         }
@@ -130,7 +135,7 @@ class ChatbotViewController: UIViewController {
     
     @objc func keyboardWillShow(notification: NSNotification) {
         guard let keyboardFrame = notification.userInfo![UIResponder.keyboardFrameEndUserInfoKey] as? NSValue else { return }
-           scrollView.contentInset.bottom = view.convert(keyboardFrame.cgRectValue, from: nil).size.height - 20
+          scrollView.contentInset.bottom = view.convert(keyboardFrame.cgRectValue, from: nil).size.height - 20
           scrollView.isScrollEnabled = true
           scrollToLastRow()
        }
@@ -138,7 +143,6 @@ class ChatbotViewController: UIViewController {
     @objc func keyboardWillHide(notification: NSNotification) {
         scrollView.contentInset.bottom = 0
         scrollView.contentOffset = CGPoint(x: 0, y: 0)
-        
         scrollView.isScrollEnabled = false
         
         scrollToLastRow()
