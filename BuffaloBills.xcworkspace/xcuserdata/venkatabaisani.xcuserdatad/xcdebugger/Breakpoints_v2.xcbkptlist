@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09F69AA2-480F-41B7-8CD1-4DD862DC8937"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15485467-C2F1-4F92-9BA7-532D102546F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "userNotificationCenter(_:willPresent:withCompletionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "15485467-C2F1-4F92-9BA7-532D102546F6 - fd732d5711143c50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "3255">
+               </Location>
+               <Location
+                  uuid = "15485467-C2F1-4F92-9BA7-532D102546F6 - fd732d5711143d92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "681">
+               </Location>
+               <Location
+                  uuid = "15485467-C2F1-4F92-9BA7-532D102546F6 - fd732d571115c134"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "222"
+                  endingLineNumber = "222"
+                  offsetFromSymbolStart = "681">
+               </Location>
+               <Location
+                  uuid = "15485467-C2F1-4F92-9BA7-532D102546F6 - fd732d571115c176"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, willPresent: __C.UNNotification, withCompletionHandler: (__C.UNNotificationPresentationOptions) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "681">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7EC1D8A-B80A-48AD-82FD-538C52EA1C74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
+            landmarkName = "userNotificationCenter(_:didReceive:withCompletionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A7EC1D8A-B80A-48AD-82FD-538C52EA1C74 - 69d6ad851def2157"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "265"
+                  endingLineNumber = "265"
+                  offsetFromSymbolStart = "3362">
+               </Location>
+               <Location
+                  uuid = "A7EC1D8A-B80A-48AD-82FD-538C52EA1C74 - 69d6ad851def2138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "266"
+                  endingLineNumber = "266"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "A7EC1D8A-B80A-48AD-82FD-538C52EA1C74 - 69d6ad851def2138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "266"
+                  endingLineNumber = "266"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "A7EC1D8A-B80A-48AD-82FD-538C52EA1C74 - 69d6ad851def25da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "A7EC1D8A-B80A-48AD-82FD-538C52EA1C74 - 69d6ad851def25da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "A7EC1D8A-B80A-48AD-82FD-538C52EA1C74 - 69d6ad851def259c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "302"
+                  endingLineNumber = "302"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "A7EC1D8A-B80A-48AD-82FD-538C52EA1C74 - 69d6ad851def259c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.AppDelegate.userNotificationCenter(_: __C.UNUserNotificationCenter, didReceive: __C.UNNotificationResponse, withCompletionHandler: () -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "302"
+                  endingLineNumber = "302"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D195EB89-AD6C-4338-8A14-EDD96E71E602"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/BuffaloBills-dbjyhugxjlquzzfypdxxequwqnoh/SourcePackages/checkouts/ESTabBarController/Sources/ESTabBarItemContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "updateLayout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8BE01DE-484B-486A-B595-AAD27B10B607"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/Content/Basic/ExampleBasicContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(frame:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A8BE01DE-484B-486A-B595-AAD27B10B607 - c610ba015b4bb10e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.ExampleBasicContentView.init(frame: __C.CGRect) -&gt; BuffaloBills.ExampleBasicContentView"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/Content/Basic/ExampleBasicContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "346">
+               </Location>
+               <Location
+                  uuid = "A8BE01DE-484B-486A-B595-AAD27B10B607 - c610ba015b4bb10e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.ExampleBasicContentView.init(frame: __C.CGRect) -&gt; BuffaloBills.ExampleBasicContentView"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/Content/Basic/ExampleBasicContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "358">
+               </Location>
+               <Location
+                  uuid = "A8BE01DE-484B-486A-B595-AAD27B10B607 - c610ba015b4bb12f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.ExampleBasicContentView.init(frame: __C.CGRect) -&gt; BuffaloBills.ExampleBasicContentView"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/Content/Basic/ExampleBasicContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "306">
+               </Location>
+               <Location
+                  uuid = "A8BE01DE-484B-486A-B595-AAD27B10B607 - c610ba015b4bb12f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.ExampleBasicContentView.init(frame: __C.CGRect) -&gt; BuffaloBills.ExampleBasicContentView"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/Content/Basic/ExampleBasicContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "657">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FE3D762-6315-4EB0-9432-028C369E5754"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/Content/Basic/ExampleBasicContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init?(coder:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7902D6D4-8640-477E-9C36-FA7386577291"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ToastKit/UIView+ToastKit.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "showToast(embedding:duration:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4ED94D9B-F67A-4FBD-939F-26F81FCD3E7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ToastKit/UIView+ToastKit.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "showToast(embedding:duration:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "579804E3-5ED2-4D6E-AE01-5F25A8978D32"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "closeButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "579804E3-5ED2-4D6E-AE01-5F25A8978D32 - d2fdfd3f1fde262a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.closeButton(__C.UIButton) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "579804E3-5ED2-4D6E-AE01-5F25A8978D32 - d2fdfd3f1fde2664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.closeButton(__C.UIButton) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "579804E3-5ED2-4D6E-AE01-5F25A8978D32 - d2fdfd3f1fde26c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.closeButton(__C.UIButton) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "579804E3-5ED2-4D6E-AE01-5F25A8978D32 - d2fdfd3f1fde2503"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.closeButton(__C.UIButton) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "579804E3-5ED2-4D6E-AE01-5F25A8978D32 - d2fdfd3f1fde25f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.closeButton(__C.UIButton) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "579804E3-5ED2-4D6E-AE01-5F25A8978D32 - d2fdfd3f1fde25be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.closeButton(__C.UIButton) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EA8B887-1BAB-4D13-812D-4497EB6749AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/MenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "handleTap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3EA8B887-1BAB-4D13-812D-4497EB6749AA - 40e9de19d7de5497"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.handleTap(Swift.Optional&lt;__C.UITapGestureRecognizer&gt;) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "3EA8B887-1BAB-4D13-812D-4497EB6749AA - 40e9de19d7de55f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.handleTap(Swift.Optional&lt;__C.UITapGestureRecognizer&gt;) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "3EA8B887-1BAB-4D13-812D-4497EB6749AA - 40e9de19d7de553a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.MenuViewController.handleTap(Swift.Optional&lt;__C.UITapGestureRecognizer&gt;) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/MenuViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9148CF70-B68D-46F6-BF07-F5FB4F9C5141"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ChatGPTClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "requestStream(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D243917-1221-4A35-8F63-7B8B0836D6A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ChatGPTClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "getChatResponse(prompt:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D243917-1221-4A35-8F63-7B8B0836D6A3 - d67e43999922c7b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "655">
+               </Location>
+               <Location
+                  uuid = "9D243917-1221-4A35-8F63-7B8B0836D6A3 - d67e43999922c7b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "740">
+               </Location>
+               <Location
+                  uuid = "9D243917-1221-4A35-8F63-7B8B0836D6A3 - d67e43999922c7b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "726">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD08E738-732D-4DC2-84D0-7E620C209BC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ChatGPTClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "getChatResponse(prompt:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD08E738-732D-4DC2-84D0-7E620C209BC7 - d67e43999922c752"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1051">
+               </Location>
+               <Location
+                  uuid = "AD08E738-732D-4DC2-84D0-7E620C209BC7 - d67e43999922c752"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "1136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E72FE158-F333-466E-9611-4B3DB148B3FA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ChatGPTClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getChatResponse(prompt:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E72FE158-F333-466E-9611-4B3DB148B3FA - d67e43999922c4bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "E72FE158-F333-466E-9611-4B3DB148B3FA - d67e43999922c4bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "358">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D319848-1C73-43F1-A5B8-140881704D94"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ChatGPTClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "getChatResponse(prompt:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D319848-1C73-43F1-A5B8-140881704D94 - 31a3f844c3cfc705"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "1851">
+               </Location>
+               <Location
+                  uuid = "0D319848-1C73-43F1-A5B8-140881704D94 - d67e43999922c6ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "1862">
+               </Location>
+               <Location
+                  uuid = "0D319848-1C73-43F1-A5B8-140881704D94 - d67e43999922c6ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "2168">
+               </Location>
+               <Location
+                  uuid = "0D319848-1C73-43F1-A5B8-140881704D94 - d67e43999922c66a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "1717">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3AEE1BE-737D-4217-9562-EBA3ABA105BB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ChatGPTClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "getChatResponse(prompt:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F3AEE1BE-737D-4217-9562-EBA3ABA105BB - d67e43999922c962"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "2838">
+               </Location>
+               <Location
+                  uuid = "F3AEE1BE-737D-4217-9562-EBA3ABA105BB - d67e43999922c6ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[4] = Value Promoted from Box&gt; of closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in BuffaloBills.ChatGPTClient.getChatResponse(prompt: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BuffaloBills"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venkatabaisani/Documents/Sutherland/BuffaloBills/BuffaloBills/ChatGPTClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "2686">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B12B542A-BA6C-4F53-89A0-44BBC8FF8A91"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BuffaloBills/ChatbotViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
