@@ -1,14 +1,14 @@
 //
-//  LeftViewCell.swift
-//  ChatSample
+//  LoadingCell.swift
+//  BuffaloBills
 //
-//  Created by Hafiz on 20/09/2019.
-//  Copyright © 2019 Nibs. All rights reserved.
+//  Created by venkata baisani on 29/09/23.
 //
 
 import UIKit
 
-class LeftViewCell: UITableViewCell {
+class LoadingCell: UITableViewCell {
+
 
     @IBOutlet weak var messageContainerView: UIView!
     @IBOutlet weak var textMessageLabel: UILabel!
@@ -43,6 +43,7 @@ class LeftViewCell: UITableViewCell {
     func gifFile(boolVal: Bool){
         
         if boolVal {
+            
             messageContainerView.isHidden = true
             textMessageLabel.isHidden = true
             messageImageView.isHidden = true
@@ -65,11 +66,4 @@ class LeftViewCell: UITableViewCell {
         }
     }
     
-}
-
-extension UIView {
-    func rounded(radius: CGFloat) {
-        self.layer.cornerRadius = radius
-        self.clipsToBounds = true
-    }
 }

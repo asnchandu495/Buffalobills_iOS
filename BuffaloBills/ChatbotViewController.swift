@@ -77,6 +77,7 @@ class ChatbotViewController: UIViewController {
         // cell setup
         tableView.register(UINib(nibName: "RightViewCell", bundle: nil), forCellReuseIdentifier: "RightViewCell")
         tableView.register(UINib(nibName: "LeftViewCell", bundle: nil), forCellReuseIdentifier: "LeftViewCell")
+        tableView.register(UINib(nibName: "LoadingCell", bundle: nil), forCellReuseIdentifier: "LoadingCell")
         
     }
 
@@ -89,19 +90,37 @@ class ChatbotViewController: UIViewController {
         
         let input = MessageModel(text: sendTF.text ?? "" ,side: .right)
         arrayChatbot.append(input)
-        
-        let output = MessageModel(text: "gif@#$!" ,side: .left)
-        arrayChatbot.append(output)
-        
-        tableView.reloadData()
+                
+//        let output = MessageModel(text: "gif@#$!" ,side: .left)
+//        arrayChatbot.append(output)
+    
+        self.tableView.reloadData()
+        self.scrollToLastRow()
+
         senddata = sendTF.text ?? ""
         sendTF.text = ""
         self.view.endEditing(true)
         
 //        Toast.shared().showToast(withDuration: 100, afterDelay: 0, withMessage: "", toastType: .error, hideToastAfterCompletion: true)
        
-        perform(#selector(yourFuncHere2), with: nil, afterDelay: 0.2)
+        self.perform(#selector(yourFuncHere1), with: nil, afterDelay: 0.1)
     }
+    
+    
+    @objc func yourFuncHere1() {
+        
+        DispatchQueue.main.async {
+            let output = MessageModel(text: "gif@#$!" ,side: .left)
+            self.arrayChatbot.append(output)
+        
+            self.tableView.reloadData()
+            self.scrollToLastRow()
+            
+            self.perform(#selector(self.yourFuncHere2), with: nil, afterDelay: 0.2)
+        }
+    }
+    
+    
     
     @objc func yourFuncHere2() {
       
@@ -145,7 +164,7 @@ class ChatbotViewController: UIViewController {
         scrollView.contentOffset = CGPoint(x: 0, y: 0)
         scrollView.isScrollEnabled = false
         
-        scrollToLastRow()
+//        scrollToLastRow()
     }
     
     /*
@@ -159,13 +178,20 @@ class ChatbotViewController: UIViewController {
      */
  
     func scrollToLastRow() {
-        let indexPath = NSIndexPath(row: arrayChatbot.count - 1, section: 0)
-        self.tableView.scrollToRow(at: indexPath as IndexPath, at: .bottom, animated: true)
+        
+        tableView.layoutIfNeeded()
+        let indexPath = NSIndexPath(row: arrayChatbot.count-1, section: 0)
+        self.tableView.scrollToRow(at: indexPath as IndexPath, at: UITableView.ScrollPosition.none, animated: true)
+        
+//        self.tableView.transform = CGAffineTransformMakeScale(1, 1);
+        
+//        self.tableView.scrollRectToVisible(CGRect(x: 0,y: 0,width: 1,height: 1), animated: true)
+
     }
 
 }
 
-extension ChatbotViewController: UITableViewDataSource {
+extension ChatbotViewController: UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrayChatbot.count
     }
@@ -173,9 +199,15 @@ extension ChatbotViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let message = arrayChatbot[indexPath.row]
         if message.side == .left {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "LeftViewCell") as! LeftViewCell
-            cell.configureCell(message: message.text)
-            return cell
+            if message.text == "gif@#$!" {
+                let cell = tableView.dequeueReusableCell(withIdentifier: "LoadingCell") as! LoadingCell
+                cell.configureCell(message: message.text)
+                return cell
+            } else {
+                let cell = tableView.dequeueReusableCell(withIdentifier: "LeftViewCell") as! LeftViewCell
+                cell.configureCell(message: message.text)
+                return cell
+            }
         }
         else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "RightViewCell") as! RightViewCell
@@ -183,7 +215,16 @@ extension ChatbotViewController: UITableViewDataSource {
             return cell
         }
     }
-  
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let message = arrayChatbot[indexPath.row]
+        if message.side == .left {
+            if message.text == "gif@#$!" {
+                return 70
+            }
+        }
+        return UITableView.automaticDimension
+    }
     
 }
 

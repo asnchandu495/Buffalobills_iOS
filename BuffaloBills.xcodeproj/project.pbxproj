@@ -27,6 +27,8 @@
 		031F736B2AB2DC8A007D1FD5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F736A2AB2DC89007D1FD5 /* HomeViewController.swift */; };
 		031F736D2AB2E432007D1FD5 /* TabbarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031F736C2AB2E432007D1FD5 /* TabbarProvider.swift */; };
 		031F73702AB2F616007D1FD5 /* ESTabBarController in Frameworks */ = {isa = PBXBuildFile; productRef = 031F736F2AB2F616007D1FD5 /* ESTabBarController */; };
+		034316E72AC6832A002A62FC /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034316E52AC6832A002A62FC /* LoadingCell.swift */; };
+		034316E82AC6832A002A62FC /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034316E62AC6832A002A62FC /* LoadingCell.xib */; };
 		035631FF2AB61F7800799398 /* UIView+ToastKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035631FD2AB61F7800799398 /* UIView+ToastKit.swift */; };
 		035632022AB61F8D00799398 /* ToastContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035632002AB61F8C00799398 /* ToastContentView.swift */; };
 		035632032AB61F8D00799398 /* ToastContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035632012AB61F8C00799398 /* ToastContent.xib */; };
@@ -121,6 +123,8 @@
 		031F734C2AB2D406007D1FD5 /* MmafiaGPTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MmafiaGPTViewController.swift; sourceTree = "<group>"; };
 		031F736A2AB2DC89007D1FD5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		031F736C2AB2E432007D1FD5 /* TabbarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarProvider.swift; sourceTree = "<group>"; };
+		034316E52AC6832A002A62FC /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		034316E62AC6832A002A62FC /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		035631FB2AB61F7800799398 /* ToastKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastKit.h; sourceTree = "<group>"; };
 		035631FD2AB61F7800799398 /* UIView+ToastKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ToastKit.swift"; sourceTree = "<group>"; };
 		035632002AB61F8C00799398 /* ToastContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastContentView.swift; sourceTree = "<group>"; };
@@ -400,6 +404,8 @@
 				03C1322D2AC11FEB00BD8B84 /* LeftViewCell.xib */,
 				03C1322E2AC11FEB00BD8B84 /* RightViewCell.swift */,
 				03C1322F2AC11FEB00BD8B84 /* LeftViewCell.swift */,
+				034316E52AC6832A002A62FC /* LoadingCell.swift */,
+				034316E62AC6832A002A62FC /* LoadingCell.xib */,
 			);
 			path = ChatDetails;
 			sourceTree = "<group>";
@@ -566,6 +572,7 @@
 				03A2B2382AB3D3BE00A5C355 /* LottieLogo1.json in Resources */,
 				03A2B2372AB3D3BE00A5C355 /* IconTransitions.json in Resources */,
 				03C132302AC11FEB00BD8B84 /* RightViewCell.xib in Resources */,
+				034316E82AC6832A002A62FC /* LoadingCell.xib in Resources */,
 				03C132312AC11FEB00BD8B84 /* LeftViewCell.xib in Resources */,
 				03648D3D2AB3262D00C7E132 /* GoogleService-Info.plist in Resources */,
 				031F731A2AB2D240007D1FD5 /* Assets.xcassets in Resources */,
@@ -697,6 +704,7 @@
 				03C132352AC1269E00BD8B84 /* ChatGPTClient.swift in Sources */,
 				03C132232AC070B600BD8B84 /* StreamChat.swift in Sources */,
 				03C132332AC11FEB00BD8B84 /* LeftViewCell.swift in Sources */,
+				034316E72AC6832A002A62FC /* LoadingCell.swift in Sources */,
 				03C132322AC11FEB00BD8B84 /* RightViewCell.swift in Sources */,
 				031F73102AB2D23A007D1FD5 /* SceneDelegate.swift in Sources */,
 				03A2B2322AB3D3BE00A5C355 /* ExampleHighlightableContentView.swift in Sources */,

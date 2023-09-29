@@ -91,7 +91,7 @@ class ChatGPTClient {
         
         var request = URLRequest(url: URL(string: "https://api.openai.com/v1/chat/completions")!,timeoutInterval: Double.infinity)
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.addValue("Bearer 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", forHTTPHeaderField: "Authorization")
+        request.addValue("Bearer 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", forHTTPHeaderField: "Authorization")
         
         //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
         
