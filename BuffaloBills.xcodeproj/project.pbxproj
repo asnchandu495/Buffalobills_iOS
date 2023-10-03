@@ -887,7 +887,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BuffaloBills/BuffaloBillsDebug.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4KVDPY29XW;
@@ -908,7 +908,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buffalobills.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = buffalobills_distribution;
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = buffalobills_distribution;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = buffalobills_development;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -922,9 +922,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4KVDPY29XW;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4KVDPY29XW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BuffaloBills/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -941,6 +943,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buffalobills.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = buffalobills_distribution;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = buffalobills_development;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
