@@ -212,7 +212,7 @@ class MenuViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         
         DispatchQueue.main.async {
             
-            if indexPath.row == 7 {
+            if indexPath.row == 7 || indexPath.row == 8 {
                 self.dismiss(animated: false)
                 self.delegate?.didNavigationView(tagVal: indexPath.row)
             } else{

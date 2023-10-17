@@ -8,11 +8,17 @@
 import UIKit
 
 class ScheduleViewController: UIViewController {
+    
+    @IBOutlet weak var itemTextView: UITextView!
+    
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.itemTextView.text = appDelegate.localFCMToken
     }
     
 
@@ -26,4 +32,7 @@ class ScheduleViewController: UIViewController {
     }
     */
 
+    @IBAction func backButtonAction(sender: UIButton!) {
+        self.navigationController?.popViewController(animated: true)
+    }
 }

@@ -139,11 +139,20 @@ class NewsViewController: UIViewController,ProtocolDelegate {
         
     }
     func didNavigationView(tagVal:Int){
-        DispatchQueue.main.async {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let v1 = storyboard.instantiateViewController(withIdentifier: "NotificationViewController") as! NotificationViewController
-            
-            self.navigationController?.pushViewController(v1, animated: true)
+        if tagVal == 7 {
+            DispatchQueue.main.async {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let v1 = storyboard.instantiateViewController(withIdentifier: "NotificationViewController") as! NotificationViewController
+                
+                self.navigationController?.pushViewController(v1, animated: true)
+            }
+        } else {
+            DispatchQueue.main.async {
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let v1 = storyboard.instantiateViewController(withIdentifier: "ScheduleViewController") as! ScheduleViewController
+                
+                self.navigationController?.pushViewController(v1, animated: true)
+            }
         }
     }
 
