@@ -70,24 +70,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                     //Do stuff
                     notiStr = alert as String
                     print(alert)
-                    DispatchQueue.main.async {
-                        
-                        //                        self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
-                        let alert = UIAlertController(title: "", message: self.notiStr, preferredStyle: .alert)
-                        //                        self.window?.rootViewController?.present(alert, animated: true, completion: nil)
-                        
-                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                        let controller = storyboard.instantiateViewController(withIdentifier: "SHLoginViewController")
-                        let  navigationController: UINavigationController? = UINavigationController(rootViewController: controller)
-                        self.window = UIWindow(frame: UIScreen.main.bounds)
-                        self.window?.rootViewController = navigationController
-                        self.window!.makeKeyAndVisible()
-                        
-                        navigationController?.present(alert, animated: true)
-                        
-//                        let controllerNotification = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
-//                        navigationController?.pushViewController(controllerNotification, animated: false)
-                    }
+//                    DispatchQueue.main.async {
+//                        
+//                        //                        self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+//                        let alert = UIAlertController(title: "", message: self.notiStr, preferredStyle: .alert)
+//                        //                        self.window?.rootViewController?.present(alert, animated: true, completion: nil)
+//                        
+//                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                        let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+//                        let  navigationController: UINavigationController? = UINavigationController(rootViewController: controller)
+//                        self.window = UIWindow(frame: UIScreen.main.bounds)
+//                        self.window?.rootViewController = navigationController
+//                        self.window!.makeKeyAndVisible()
+//                        
+//                        navigationController?.present(alert, animated: true)
+//                        
+////                        let controllerNotification = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+////                        navigationController?.pushViewController(controllerNotification, animated: false)
+//                    }
                 }
             }
         }
@@ -109,22 +109,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                     //Do stuff
                     notiStr = alert as String
                     print(alert)
-                    DispatchQueue.main.async {
-                        
-                        //                        self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
-                        let alert = UIAlertController(title: "", message: self.notiStr, preferredStyle: .alert)
-                        //                        self.window?.rootViewController?.present(alert, animated: true, completion: nil)
-                        
-                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                        let controller = storyboard.instantiateViewController(withIdentifier: "SHLoginViewController")
-                        let  navigationController: UINavigationController? = UINavigationController(rootViewController: controller)
-                        self.window = UIWindow(frame: UIScreen.main.bounds)
-                        self.window?.rootViewController = navigationController
-                        self.window!.makeKeyAndVisible()
-                        
-                        let controllerNotification = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
-                        navigationController?.pushViewController(controllerNotification, animated: false)
-                    }
+//                    DispatchQueue.main.async {
+//                        
+//                        //                        self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+//                        let alert = UIAlertController(title: "", message: self.notiStr, preferredStyle: .alert)
+//                        //                        self.window?.rootViewController?.present(alert, animated: true, completion: nil)
+//                        
+//                        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                        let controller = storyboard.instantiateViewController(withIdentifier: "SHLoginViewController")
+//                        let  navigationController: UINavigationController? = UINavigationController(rootViewController: controller)
+//                        self.window = UIWindow(frame: UIScreen.main.bounds)
+//                        self.window?.rootViewController = navigationController
+//                        self.window!.makeKeyAndVisible()
+//                        
+//                        let controllerNotification = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+//                        navigationController?.pushViewController(controllerNotification, animated: false)
+//                    }
                 }
             }
         }
@@ -238,57 +238,57 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
        // NotificationCenter.default.post(name: NSNotification.Name(rawValue: "filter"), object: nil)
         
-        let keyWindow = UIApplication
-            .shared
-            .connectedScenes
-            .flatMap({ ($0 as? UIWindowScene)?.windows ?? [] })
-            .filter({$0.isKeyWindow})
-            .first
-        
-        switch UIApplication.shared.applicationState {
-        case .active:
-            print("Active")
-            
-            let rootViewController:UINavigationController? = keyWindow?.rootViewController as? UINavigationController
-            let count = rootViewController?.viewControllers.count ?? 0
-            let viewControllerLast = (rootViewController?.viewControllers[count-1])
-            if (viewControllerLast is NewsViewController || viewControllerLast is ChatbotViewController)  {
-                
-                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
-                rootViewController?.pushViewController(controller, animated: false)
-            }
-            return
-        case .inactive:
-            print("userNotificationCenter inactive)")
-            
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let controller = storyboard.instantiateViewController(withIdentifier: "SHLoginViewController")
-            let  navigationController: UINavigationController? = UINavigationController(rootViewController: controller)
-            self.window = UIWindow(frame: UIScreen.main.bounds)
-            self.window?.rootViewController = navigationController
-            self.window!.makeKeyAndVisible()
-            
-            let controllerNotification = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
-            navigationController?.pushViewController(controllerNotification, animated: false)
-            
-            break
-        case .background:
-            print("userNotificationCenter background")
-            break
-        @unknown default:
-            
-            let rootViewController:UINavigationController? = keyWindow?.rootViewController as? UINavigationController
-            let count = rootViewController?.viewControllers.count ?? 0
-            let viewControllerLast = (rootViewController?.viewControllers[count-1])
-            if (viewControllerLast is NewsViewController || viewControllerLast is ChatbotViewController)  {
-                
-                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
-                rootViewController?.pushViewController(controller, animated: false)
-            }
-            break
-        }
+//        let keyWindow = UIApplication
+//            .shared
+//            .connectedScenes
+//            .flatMap({ ($0 as? UIWindowScene)?.windows ?? [] })
+//            .filter({$0.isKeyWindow})
+//            .first
+//        
+//        switch UIApplication.shared.applicationState {
+//        case .active:
+//            print("Active")
+//            
+//            let rootViewController:UINavigationController? = keyWindow?.rootViewController as? UINavigationController
+//            let count = rootViewController?.viewControllers.count ?? 0
+//            let viewControllerLast = (rootViewController?.viewControllers[count-1])
+//            if (viewControllerLast is NewsViewController || viewControllerLast is ChatbotViewController)  {
+//                
+//                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+//                rootViewController?.pushViewController(controller, animated: false)
+//            }
+//            return
+//        case .inactive:
+//            print("userNotificationCenter inactive)")
+//            
+//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//            let controller = storyboard.instantiateViewController(withIdentifier: "SHLoginViewController")
+//            let  navigationController: UINavigationController? = UINavigationController(rootViewController: controller)
+//            self.window = UIWindow(frame: UIScreen.main.bounds)
+//            self.window?.rootViewController = navigationController
+//            self.window!.makeKeyAndVisible()
+//            
+//            let controllerNotification = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+//            navigationController?.pushViewController(controllerNotification, animated: false)
+//            
+//            break
+//        case .background:
+//            print("userNotificationCenter background")
+//            break
+//        @unknown default:
+//            
+//            let rootViewController:UINavigationController? = keyWindow?.rootViewController as? UINavigationController
+//            let count = rootViewController?.viewControllers.count ?? 0
+//            let viewControllerLast = (rootViewController?.viewControllers[count-1])
+//            if (viewControllerLast is NewsViewController || viewControllerLast is ChatbotViewController)  {
+//                
+//                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+//                rootViewController?.pushViewController(controller, animated: false)
+//            }
+//            break
+//        }
       // Change this to your preferred presentation option
       completionHandler([[.badge,.sound]])
     }
@@ -315,58 +315,58 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
        // NotificationCenter.default.post(name: NSNotification.Name(rawValue: "filter"), object: nil)
         
-        let keyWindow = UIApplication
-            .shared
-            .connectedScenes
-            .flatMap({ ($0 as? UIWindowScene)?.windows ?? [] })
-            .filter({$0.isKeyWindow})
-            .first
-    
-        
-        switch UIApplication.shared.applicationState {
-        case .active:
-            print("Active")
-            
-            let rootViewController:UINavigationController? = keyWindow?.rootViewController as? UINavigationController
-            let count = rootViewController?.viewControllers.count ?? 0
-            let viewControllerLast = (rootViewController?.viewControllers[count-1])
-            if (viewControllerLast is NewsViewController || viewControllerLast is ChatbotViewController)  {
-                
-                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
-                rootViewController?.pushViewController(controller, animated: false)
-            }
-            return
-        case .inactive:
-            print("userNotificationCenter inactive)")
-            
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let controller = storyboard.instantiateViewController(withIdentifier: "SHLoginViewController")
-            let  navigationController: UINavigationController? = UINavigationController(rootViewController: controller)
-            self.window = UIWindow(frame: UIScreen.main.bounds)
-            self.window?.rootViewController = navigationController
-            self.window!.makeKeyAndVisible()
-            
-            let controllerNotification = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
-            navigationController?.pushViewController(controllerNotification, animated: false)
-            
-            break
-        case .background:
-            print("userNotificationCenter background")
-            break
-        @unknown default:
-            
-            let rootViewController:UINavigationController? = keyWindow?.rootViewController as? UINavigationController
-            let count = rootViewController?.viewControllers.count ?? 0
-            let viewControllerLast = (rootViewController?.viewControllers[count-1])
-            if (viewControllerLast is NewsViewController || viewControllerLast is ChatbotViewController)  {
-                
-                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
-                rootViewController?.pushViewController(controller, animated: false)
-            }
-            break
-        }
+//        let keyWindow = UIApplication
+//            .shared
+//            .connectedScenes
+//            .flatMap({ ($0 as? UIWindowScene)?.windows ?? [] })
+//            .filter({$0.isKeyWindow})
+//            .first
+//    
+//        
+//        switch UIApplication.shared.applicationState {
+//        case .active:
+//            print("Active")
+//            
+//            let rootViewController:UINavigationController? = keyWindow?.rootViewController as? UINavigationController
+//            let count = rootViewController?.viewControllers.count ?? 0
+//            let viewControllerLast = (rootViewController?.viewControllers[count-1])
+//            if (viewControllerLast is NewsViewController || viewControllerLast is ChatbotViewController)  {
+//                
+//                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+//                rootViewController?.pushViewController(controller, animated: false)
+//            }
+//            return
+//        case .inactive:
+//            print("userNotificationCenter inactive)")
+//            
+//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//            let controller = storyboard.instantiateViewController(withIdentifier: "SHLoginViewController")
+//            let  navigationController: UINavigationController? = UINavigationController(rootViewController: controller)
+//            self.window = UIWindow(frame: UIScreen.main.bounds)
+//            self.window?.rootViewController = navigationController
+//            self.window!.makeKeyAndVisible()
+//            
+//            let controllerNotification = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+//            navigationController?.pushViewController(controllerNotification, animated: false)
+//            
+//            break
+//        case .background:
+//            print("userNotificationCenter background")
+//            break
+//        @unknown default:
+//            
+//            let rootViewController:UINavigationController? = keyWindow?.rootViewController as? UINavigationController
+//            let count = rootViewController?.viewControllers.count ?? 0
+//            let viewControllerLast = (rootViewController?.viewControllers[count-1])
+//            if (viewControllerLast is NewsViewController || viewControllerLast is ChatbotViewController)  {
+//                
+//                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//                let controller = storyboard.instantiateViewController(withIdentifier: "NotificationViewController")
+//                rootViewController?.pushViewController(controller, animated: false)
+//            }
+//            break
+//        }
         
 
 

@@ -82,7 +82,7 @@ class SplashViewController: UIViewController, UITabBarControllerDelegate {
              UIView.animate(withDuration: 1, animations: {
                
                  self.imageViewLogo.transform = CGAffineTransform.identity.scaledBy(x: 1.5, y: 1.5) // undo in 1 seconds
-                 self.animateBuffaloLogo()
+//                 self.animateBuffaloLogo()
                  self.animateBillsLogo()
 
            })
@@ -133,7 +133,7 @@ class SplashViewController: UIViewController, UITabBarControllerDelegate {
     func navigateNotificationPage(){
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let v1 = storyboard.instantiateViewController(withIdentifier: "NewsViewController") as! NewsViewController
+        let v1 = storyboard.instantiateViewController(withIdentifier: "NotificationViewController") as! NotificationViewController
         self.navigationController?.pushViewController(v1, animated: true)
         
     }
