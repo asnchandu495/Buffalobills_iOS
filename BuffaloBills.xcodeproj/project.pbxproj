@@ -894,7 +894,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4KVDPY29XW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BuffaloBills/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Sutherland;
+				INFOPLIST_KEY_CFBundleDisplayName = SQNMS;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -930,7 +930,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4KVDPY29XW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BuffaloBills/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Sutherland;
+				INFOPLIST_KEY_CFBundleDisplayName = SQNMS;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
